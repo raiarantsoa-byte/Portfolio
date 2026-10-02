@@ -1,365 +1,392 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta charset="utf-8">
-	<title>Iarantsoa Nomejanahary RANAIVOSON</title>
-		<link rel="icon" type="icon" href="img/photopdp.jpg">
+	<title>Iarantsoa Nomenjanahary RANAIVOSON - Portfolio</title>
+	<link rel="icon" type="image/jpeg" href="img/photopdp.jpg">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="fa/css/font-awesome.css">
 </head>
+
 <body>
 	<div class="container">
 		<div class="navigation">
 			<ul>
-				<li><a href="#banner" onclick="toogleMenu()">Accueil</a></li>
-				<li><a href="#about" onclick="toogleMenu()">Profil</a></li>
-				<li><a href="#experiences" onclick="toogleMenu()">Expériences</a></li>
-				<li><a href="#project" onclick="toogleMenu()">Mes réalisations</a></li>
-				<li><a href="#contacts" onclick="toogleMenu()">Contacts</a></li>
+				<li><a href="#banner" onclick="toogleMenu()" data-i18n="nav_home">Accueil</a></li>
+				<li><a href="#about" onclick="toogleMenu()" data-i18n="nav_profile">Profil</a></li>
+				<li><a href="#experiences" onclick="toogleMenu()" data-i18n="nav_experiences">Expériences</a></li>
+				<li><a href="#project" onclick="toogleMenu()" data-i18n="nav_projects">Mes réalisations</a></li>
+				<li><a href="#contacts" onclick="toogleMenu()" data-i18n="nav_contacts">Contacts</a></li>
 			</ul>
 		</div>
 		<div class="main">
 			<div class="topbar">
-				<a href="" class="logo">Portoflio</a>
-				<div class="toggle">
-					<i class="fa  fa-bars" aria-hidden="true"></i>
+				<a href="#banner" class="logo">Portfolio</a>
+				<div class="topbar-actions">
+					<div class="lang-selector">
+						<button class="lang-btn active" data-lang="fr" onclick="switchLanguage('fr')"
+							aria-label="Français">FR</button>
+						<span class="lang-divider">|</span>
+						<button class="lang-btn" data-lang="en" onclick="switchLanguage('en')"
+							aria-label="English">EN</button>
+					</div>
+					<button class="theme-toggle-btn" id="theme-toggle-btn" onclick="toggleTheme()"
+						aria-label="Changer de thème">
+						<i class="fa fa-moon-o" aria-hidden="true"></i> <span class="theme-label"
+							data-i18n="theme_dark_btn">Nuit</span>
+					</button>
+					<div class="toggle" aria-label="Menu">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</div>
 				</div>
 			</div>
 			<!-- banner -->
 			<section class="banner" id="banner">
 				<div class="content">
 					<div class="imgBx">
-						<img src="img/photopdp.jpg" >
+						<img src="img/photopdp.jpg" alt="RANAIVOSON Nomenjanahary Iarantsoa">
 					</div>
 					<h3>
-						 RANAIVOSON Nomenjanahary Iarantsoa
+						RANAIVOSON Nomenjanahary Iarantsoa
 					</h3>
-					<p>
+					<p data-i18n="banner_role">
 						Spécialiste en communication et Web Manager
 					</p>
-					<a href="cv/index.pdf" class="btn">Voir mon CV </a>
+					<a href="cv/index.pdf" class="btn" target="_blank" data-i18n="banner_cv">Voir mon CV</a>
 					<ul class="socialMedia">
 						<li>
-							<a href="https://www.facebook.com/iarantsoa.rnvs.3" target="_blank"><i class="fa  fa-facebook " aria-hidden="true"></i></a>
+							<a href="https://www.facebook.com/iarantsoa.rnvs.3" target="_blank" aria-label="Facebook"><i
+									class="fa fa-facebook" aria-hidden="true"></i></a>
 						</li>
 						<li>
-							<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fiarantsoarnvs%3Figsh%3DZWhvOGcxdGM3d3U2%26fbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExa0VMUjMwN0ZYQkN0WWZWNHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5w3efPGkUlTjDftX7gwZh1spsKpfz8XKN1yFJuy0aqqh0qO9L3MKx6yfAEMA_aem_KoYFIzAc4m8kQZNo7Ws1DQ&h=AT4IOeHcxe7ieRxf2lzGc7N1Xcu3I70grnsKXe87pZPsybtg59gprPv6Lv5XGTlJMgkVsBq06nFbKk8lMJZiVhrOu205NnX9miandU01-Leze6mNWTr0IlmEjfYr_ZLVyWRILw"><i class="fa   fa-instagram  " aria-hidden="true"></i></a>
+							<a href="https://www.instagram.com/iarantsoarnvs" target="_blank" aria-label="Instagram"><i
+									class="fa fa-instagram" aria-hidden="true"></i></a>
 						</li>
 						<li>
-							<a href=""><i class="fa  fa-twitter " aria-hidden="true"></i></a>
+							<a href="#contacts" aria-label="Twitter"><i class="fa fa-twitter"
+									aria-hidden="true"></i></a>
 						</li>
 						<li>
-							<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fiarantsoa-nomenjanahary-ranaivoson-b321611b5%2Ffr%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExa0VMUjMwN0ZYQkN0WWZWNHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR4TrIrbIumOIO1NRiXqlJVB2dL7LQe43HGV12XHYDlV1n6swQoTzBR9OxOBsw_aem_l52jAe-01wV4t7SH_dzJBg&h=AT4IOeHcxe7ieRxf2lzGc7N1Xcu3I70grnsKXe87pZPsybtg59gprPv6Lv5XGTlJMgkVsBq06nFbKk8lMJZiVhrOu205NnX9miandU01-Leze6mNWTr0IlmEjfYr_ZLVyWRILw" target="_blank"><i class="fa  fa-linkedin-square" aria-hidden="true"></i></a>
+							<a href="https://www.linkedin.com/in/iarantsoa-nomenjanahary-ranaivoson-b321611b5/"
+								target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin-square"
+									aria-hidden="true"></i></a>
 						</li>
 					</ul>
 				</div>
 			</section>
-			<!--Apropos-->
-			<!--<section class="about" id="about">
-			  <div class="title">
-			    <h2>Qui suis-je ?</h2>
-			  </div>
-			  <div class="content">
-			    <div class="textBox">
-			      <h3>RANAIVOSON Nomenjanahary Iarantsoa</h3>
-			      <p>
-			         Passionné par la <span class="highlight">communication institutionnelle et digitale</span>, je crée des contenus qui valorisent les initiatives sociales et humanitaires..
-			      </p>
-			      <p>
-			                De la Croix-Rouge Malagasy aux projets associatifs, j’ai animé des campagnes, documenté des actions de terrain et mobilisé des communautés.
-			      </p>
-			      <p>
-			        Créatif, rigoureux et engagé, je mets mes compétences au service d’organisations qui veulent inspirer, fédérer et agir.
-     			 </p>
-			      </p>
-			    </div>
-			  </div>
-			</section>-->
+
+			<!-- Apropos -->
 			<section class="about" id="about">
-  <div class="title">
-    <h2>Qui suis-je ?</h2>
-  </div>
-  <div class="content">
-    <div class="textBox">
-      <h3>RANAIVOSON Nomenjanahary Iarantsoa</h3>
-      <p class="role">Responsable Médias Sociaux & Assistant de Communication</p>
-      
-      <p>
-        J'évolue aujourd'hui avec une <span class="highlight">double casquette</span> qui fait ma force.
-      </p>
-      <p>
-        D'un côté, je suis <span class="highlight">Responsable Médias Sociaux du Groupe Megaprint</span>, où je pilote la stratégie digitale de 4 marques : <strong>Megaprint, Megapower, Slimmo et La Résidence Fenofitia</strong>. Création de contenu, animation de communautés, campagnes : je gère leur visibilité au quotidien.
-      </p>
-      <p>
-        De l'autre, je suis <span class="highlight">Assistant de Communication à la Concertation des Sociétés Civiles Malagasy </span>, où je mets mes compétences au service de l'engagement citoyen et des initiatives à impact.
-      </p>
-      <p>
-        Ce parcours, de la Croix-Rouge Malagasy au secteur privé, m'a appris une chose : qu'on parle d'une marque ou d'une cause, on a besoin de la même chose - une histoire vraie, bien racontée, qui fédère.
-      </p>
-      <p class="signature">
-        Créatif, rigoureux et engagé.
-      </p>
-    </div>
-  </div>
-</section>
+				<div class="title">
+					<h2 data-i18n="about_title">Qui suis-je ?</h2>
+				</div>
+				<div class="content">
+					<div class="textBox">
+						<h3>RANAIVOSON Nomenjanahary Iarantsoa</h3>
+						<p class="role" data-i18n="about_role">Responsable Médias Sociaux et Assistant de Communication
+						</p>
 
-			<!-- Services -->
-	<section id="experiences">
-  <h2>Mes Expériences</h2>
-  <div class="experience-grid">
-    <div class="card current">
-      <img src="img/megaprint.jpg" alt="Megaprint">
-      <h3>Megaprint</h3>
-      <p>Responsable Médias Sociaux Megaprint</p>
-      <ul>
-        <li>Stratégie de contenu pour l'impression & signalétique</li>
-        <li>Création de visuels produits et réalisations clients</li>
-        <li>Animation Facebook / LinkedIn et génération de leads B2B</li>
-      </ul>
-    </div>
-	    <div class="card current">
-      <img src="img/megapower.jpg" alt="Megapower">
-      <h3>Megapower</h3>
-      <p>Responsable Médias Sociaux  Megapower</p>
-      <ul>
-        <li>Promotion des solutions d'énergie solaire</li>
-        <li>Vulgarisation technique en contenus pédagogiques</li>
-        <li>Campagnes de sensibilisation à l'autonomie énergétique</li>
-      </ul>
-    </div>
-	    <div class="card current">
-      <img src="img/slimmo.jpg" alt="Slimmo">
-      <h3>Slimmo</h3>
-      <p>Responsable Médias Sociaux SLIMMO</p>
-      <ul>
-        <li>Développement de l'identité de marque lifestyle</li>
-        <li>Contenus créatifs, Reels et tendances TikTok / FB</li>
-        <li>Animation de communauté jeune et engagement</li>
-      </ul>
-    </div>
-	    <div class="card current">
-      <img src="img/fenofitia.jpg" alt="La Résidence Fenofitia">
-      <h3>La Résidence Fenofitia</h3>
-      <p>Responsable Médias Sociaux La Résidence Fenofitia</p>
-      <ul>
-        <li>Valorisation immobilière et cadre de vie</li>
-        <li>Contenus haut de gamme : photos, visites, témoignages</li>
-        <li>Gestion de la e-réputation et demandes d'infos</li>
-      </ul>
-    </div>
-    <!-- Croix-Rouge Malagasy -->
-    <div class="card">
-      <img src="img/1.jpg" alt="Croix-Rouge Malagasy">
-      <h3>Croix-Rouge Malagasy</h3>
-      <p>Création de contenus de sensibilisation sur Facebook, 
-         valorisation des volontaires, animation de campagnes humanitaires.</p>
-      <ul>
-        <li>Posts Facebook avec visuels et storytelling</li>
-        <li>Campagnes de sensibilisation aux premiers secours</li>
-        <li>Coordination des actions digitales et terrain</li>
-      </ul>
-    </div>
+						<p data-i18n="about_p1">
+							J'évolue aujourd'hui avec une <span class="highlight">double casquette</span> qui fait ma
+							force.
+						</p>
+						<p data-i18n="about_p2">
+							D'un côté, je suis <span class="highlight">Responsable Médias Sociaux du Groupe
+								Megaprint</span>, où je pilote la stratégie digitale de 4 marques : <strong>Megaprint,
+								Megapower, SLIMMO MADA et La Résidence Fenofitia</strong>. Création de contenu,
+							animation de
+							communautés, campagnes : je gère leur visibilité au quotidien.
+						</p>
+						<p data-i18n="about_p3">
+							De l'autre, je suis <span class="highlight">Assistant de Communication à la Concertation des
+								Sociétés Civiles Malagasy</span>, où je mets mes compétences au service de l'engagement
+							citoyen et des initiatives à impact.
+						</p>
+						<p data-i18n="about_p4">
+							Ce parcours, de la Croix-Rouge Malagasy au secteur privé, m'a appris une chose : qu'on parle
+							d'une marque ou d'une cause, on a besoin de la même chose - une histoire vraie, bien
+							racontée, qui fédère.
+						</p>
+						<p class="signature" data-i18n="about_sig">
+							Créatif, rigoureux et engagé.
+						</p>
+					</div>
+				</div>
+			</section>
 
-    
+			<!-- Experiences -->
+			<section id="experiences">
+				<h2 data-i18n="exp_title">Mes Expériences</h2>
+				<div class="experience-grid">
+					<div class="card current">
+						<img src="img/D.png" alt="Megaprint">
+						<h3>MEGAPRINT</h3>
+						<p data-i18n="exp_megaprint_role">Responsable Médias Sociaux Megaprint</p>
+						<ul>
+							<li data-i18n="exp_megaprint_1">Stratégie de contenu pour l'impression et signalétique</li>
+							<li data-i18n="exp_megaprint_2">Création de visuels produits et réalisations clients</li>
+							<li data-i18n="exp_megaprint_3">Animation Facebook / LinkedIn et génération de leads B2B
+							</li>
+						</ul>
+					</div>
+					<div class="card current">
+						<img src="img/JK.png" alt="Megapower">
+						<h3>MEGAPOWER</h3>
+						<p data-i18n="exp_megapower_role">Responsable Médias Sociaux Megapower</p>
+						<ul>
+							<li data-i18n="exp_megapower_1">Promotion des solutions d'énergie solaire</li>
+							<li data-i18n="exp_megapower_2">Vulgarisation technique en contenus pédagogiques</li>
+							<li data-i18n="exp_megapower_3">Campagnes de sensibilisation à l'autonomie énergétique</li>
+						</ul>
+					</div>
+					<div class="card current">
+						<img src="img/t.jpg" alt="Slimmo">
+						<h3>SLIMMO MADA</h3>
+						<p data-i18n="exp_slimmo_role">Responsable Médias Sociaux SLIMMO</p>
+						<ul>
+							<li data-i18n="exp_slimmo_1">Développement de l'identité de marque lifestyle</li>
+							<li data-i18n="exp_slimmo_2">Contenus créatifs et Reels </li>
+							<li data-i18n="exp_slimmo_3">Animation de communauté jeune et engagement</li>
+						</ul>
+					</div>
+					<div class="card current">
+						<img src="img/h.png" alt="La Résidence Fenofitia">
+						<h3>La Résidence Fenofitia</h3>
+						<p data-i18n="exp_fenofitia_role">Responsable Médias Sociaux La Résidence Fenofitia</p>
+						<ul>
+							<li data-i18n="exp_fenofitia_1">Valorisation immobilière et cadre de vie</li>
+							<li data-i18n="exp_fenofitia_2">Contenus haut de gamme : photos, visites, témoignages</li>
+							<li data-i18n="exp_fenofitia_3">Gestion de la e-réputation et demandes d'infos</li>
+						</ul>
+					</div>
+					<!-- Croix-Rouge Malagasy -->
+					<div class="card">
+						<img src="img/1.jpg" alt="Croix-Rouge Malagasy">
+						<h3>Croix-Rouge Malagasy</h3>
+						<p data-i18n="exp_croixrouge_role">Création de contenus de sensibilisation sur Facebook,
+							valorisation des volontaires, animation de campagnes humanitaires.</p>
+						<ul>
+							<li data-i18n="exp_croixrouge_1">Posts Facebook avec visuels et storytelling</li>
+							<li data-i18n="exp_croixrouge_2">Campagnes de sensibilisation aux premiers secours</li>
+							<li data-i18n="exp_croixrouge_3">Coordination des actions digitales et terrain</li>
+						</ul>
+					</div>
 
-    <!-- Alliance Aika -->
-    <div class="card">
-      <img src="img/aika.jpg" alt="Alliance Aika">
-      <h3>Alliance Aika</h3>
-      <p>Animateur et chef de projet digital.</p>
-      <ul>
-        <li>Organisation d’activités pour les jeunes</li>
-        <li>Création de visuels et vidéos de mobilisation</li>
-        <li>Animation d’événements communautaires</li>
-      </ul>
-    </div>
-	  <!-- CSCM - Ton poste associatif actuel -->
-    <div class="card current">
-      <img src="img/cscm.jpg" alt="Concertation des Sociétés Civiles Malagasy">
-      <h3>Concertation des Sociétés Civiles Malagasy</h3>
-      <p>Assistant de Communication</p>
-      <ul>
-        <li>Valorisation des initiatives citoyennes et plaidoyers</li>
-        <li>Création de contenus institutionnels et digitaux</li>
-        <li>Appui à la communication pour l'engagement citoyen</li>
-      </ul>
-    </div>
-      <!-- Challenge for Kids -->
-    <div class="card">
-      <img src="img/cfk1.jpg" alt="Challenge for Kids">
-      <h3>Challenge for Kids</h3>
-      <p>Coordinateur d’activités éducatives et mobilisations terrain.</p>
-      <ul>
-        <li>Campagnes Facebook pour sensibiliser les familles</li>
-        <li>Organisation d’événements éducatifs</li>
-        <li>Communication avec partenaires et parents</li>
-      </ul>
-    </div>
-<!-- Konecta -->
-		    <div class="card">
-		      <img src="img/000.jpg" alt="Konecta">
-		      <h3>Konecta</h3>
-		      <p>Responsable mobilisation clients et communication multicanale.</p>
-		      <ul>
-		        <li>Création de contenus pour réseaux sociaux</li>
-		        <li>Analyse des retours et feedback clients</li>
-		        <li>Coordination interne des campagnes</li>
-		      </ul>
-		    </div>
-		  
- 
-		     <div class="card">
-		      <img src="img/cfk.jpg" alt="Institut Supérieur des Sciences Info-Com et Cinéma">
-		      <h3>Institut Supérieur des Sciences Info-Com et Cinéma</h3>
-		      <p>Responsable logistique événementiel et promotion.</p>
-		      <ul>
-		        <li>Organisation et coordination des événements académiques</li>
-		        <li>Gestion de la logistique et des équipes</li>
-		        <li>Promotion des activités via réseaux sociaux et supports visuels</li>
-		      </ul>
-		    </div>
+					<!-- Alliance Aika -->
+					<div class="card">
+						<img src="img/aika.jpg" alt="Alliance Aika">
+						<h3>Alliance Aika</h3>
+						<p data-i18n="exp_aika_role">Animateur et chef de projet digital.</p>
+						<ul>
+							<li data-i18n="exp_aika_1">Organisation d’activités pour les jeunes</li>
+							<li data-i18n="exp_aika_2">Création de visuels et vidéos de mobilisation</li>
+							<li data-i18n="exp_aika_3">Animation d’événements communautaires</li>
+						</ul>
+					</div>
+					<!-- CSCM -->
+					<div class="card current">
+						<img src="img/FIKAONANDOHAM- PARITRA.png" alt="Concertation des Sociétés Civiles Malagasy">
+						<h3>Concertation des Sociétés Civiles Malagasy</h3>
+						<p data-i18n="exp_cscm_role">Assistant de Communication</p>
+						<ul>
+							<li data-i18n="exp_cscm_1">Valorisation des initiatives citoyennes et plaidoyers</li>
+							<li data-i18n="exp_cscm_2">Création de contenus institutionnels et digitaux</li>
+							<li data-i18n="exp_cscm_3">Appui à la communication pour l'engagement citoyen</li>
+						</ul>
+					</div>
+					<!-- Challenge for Kids -->
+					<div class="card">
+						<img src="img/cfk1.jpg" alt="Challenge for Kids">
+						<h3>Challenge for Kids</h3>
+						<p data-i18n="exp_cfk_role">Coordinateur d’activités éducatives et mobilisations terrain.</p>
+						<ul>
+							<li data-i18n="exp_cfk_1">Campagnes Facebook pour sensibiliser les familles</li>
+							<li data-i18n="exp_cfk_2">Organisation d’événements éducatifs</li>
+							<li data-i18n="exp_cfk_3">Communication avec partenaires et parents</li>
+						</ul>
+					</div>
+					<!-- Konecta -->
+					<div class="card">
+						<img src="img/000.jpg" alt="Konecta">
+						<h3>Konecta</h3>
+						<p data-i18n="exp_konecta_role">Responsable mobilisation clients et communication multicanale.
+						</p>
+						<ul>
+							<li data-i18n="exp_konecta_1">Création de contenus pour réseaux sociaux</li>
+							<li data-i18n="exp_konecta_2">Analyse des retours et feedback clients</li>
+							<li data-i18n="exp_konecta_3">Coordination interne des campagnes</li>
+						</ul>
+					</div>
 
-		  </div>
-		</section>
-
+					<div class="card">
+						<img src="img/cfk.jpg" alt="Institut Supérieur des Sciences Info-Com et Cinéma">
+						<h3>Institut Supérieur des Sciences Info-Com et Cinéma</h3>
+						<p data-i18n="exp_isic_role">Responsable logistique événementiel et promotion.</p>
+						<ul>
+							<li data-i18n="exp_isic_1">Organisation et coordination des événements académiques</li>
+							<li data-i18n="exp_isic_2">Gestion de la logistique et des équipes</li>
+							<li data-i18n="exp_isic_3">Promotion des activités via réseaux sociaux et supports visuels
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 
 			<!-- Projets -->
 			<section class="project adjuste" id="project">
 				<div class="title">
-					<h2>Mes réalisations</h2>
-				    <p>
-				      Chaque projet est une histoire, chaque image un témoignage, chaque vidéo une voix. 
-				      À travers mes créations, je cherche à <span class="highlight">inspirer, mobiliser et valoriser</span> 
-				      les initiatives sociales et humanitaires. 
-				    </p>
-				    <p>
-				      Voici un aperçu de mon parcours : des vidéos qui racontent, des publications qui engagent, 
-				      et des photos qui capturent l’essence des actions de terrain.
-				    </p>
+					<h2 data-i18n="projects_title">Mes réalisations</h2>
+					<p data-i18n="projects_p1">
+						Chaque projet est une histoire, chaque image un témoignage, chaque vidéo une voix.
+						À travers mes créations, je cherche à <span class="highlight">inspirer, mobiliser et
+							valoriser</span>
+						les initiatives sociales, humanitaires et de marque.
+					</p>
+					<p data-i18n="projects_p2">
+						Voici un aperçu de mon parcours : des vidéos qui racontent, des publications qui engagent,
+						et des photos qui capturent l’essence des actions de terrain.
+					</p>
 				</div>
-				 <div class="content">
-    <!-- Vidéos -->
-			    <div class="category fade-in">
-			     	<h3>🎥 Vidéos</h3>
-			     	<div class="grid">
-			       		<div class="item zoom">
-			         		<video controls src="videos/1.mp4"></video>
-			         		<p>Campagne de sensibilisation</p>
-			        	</div>
-			        	<div class="item zoom">
-			          		<video controls src="videos/4.mp4"></video>
-			          		<p>Portrait de volontaire</p>
-			        	</div>
-			      	</div>
-			    </div>
-			    <!-- Publications -->
-			    <div class="category fade-in">
-			      <h3>📰 Publications</h3>
-			      <div class="grid">
-			        <div class="item zoom">
-			          <img src="img/5.jpg" alt="Publication 1">
-			          <p>Affiche Croix-Rouge Malagasy</p>
-			        </div>
-			        <div class="item zoom">
-			          <img src="img/4.jpg" alt="Publication 2">
-			          <p>Affiche d'appel d'offre</p>
-			        </div>
-			         <div class="item zoom">
-			          <img src="img/3.jpg" alt="Publication 2">
-			          <p>Affiche de recrutement</p>
-			        </div>
-			      </div>
-			    </div>
 
-			    <!-- Photos -->
+				<!-- Filter Bar -->
+				<div class="portfolio-filter-bar">
+					<button class="portfolio-filter-btn active" data-filter="all" onclick="setFilter('all')">
+						<i class="fa fa-th" aria-hidden="true"></i> <span data-i18n="filter_all">Tous les projets</span>
+					</button>
+					<button class="portfolio-filter-btn" data-filter="visuals" onclick="setFilter('visuals')">
+						<i class="fa fa-picture-o" aria-hidden="true"></i> <span data-i18n="filter_visuals">Contenus
+							Visuels</span>
+					</button>
+					<button class="portfolio-filter-btn" data-filter="videos" onclick="setFilter('videos')">
+						<i class="fa fa-film" aria-hidden="true"></i> <span data-i18n="filter_videos">Vidéos</span>
+					</button>
+				</div>
+
+				<!-- Dynamic Container for Gallery & Video Sections -->
+				<div class="content" id="portfolio-gallery-container">
+					<!-- Rendered dynamically by js/main.js -->
 				</div>
 			</section>
-		<!--Contact-->
+
+			<!-- Contact -->
 			<section id="contacts" class="contact adjuste">
-				<h2 class="section-title">Contacts</h2>
-				<p class="contact-intro">
+				<h2 class="section-title" data-i18n="contact_title">Contacts</h2>
+				<p class="contact-intro" data-i18n="contact_intro">
 					N'hésitez pas à me contacter pour toute collaboration, projet ou opportunité professionnelle.
 				</p>
 				<div class="contact-container">
-					<a href="" class="contact-card" target="_blank">
-					<span class="icon">
-						<i class="fa  fa-linkedin-square linkdin" aria-hidden="true"></i>
-					</span>
-					<h3>LinkedIn</h3>
-					<p>Voir mon profil professionnel</p>
+					<a href="https://www.linkedin.com/in/iarantsoa-nomenjanahary-ranaivoson-b321611b5/"
+						class="contact-card" target="_blank">
+						<span class="icon">
+							<i class="fa fa-linkedin-square linkdin" aria-hidden="true"></i>
+						</span>
+						<h3>LinkedIn</h3>
+						<p data-i18n="contact_linkedin_p">Voir mon profil professionnel</p>
 					</a>
 
-					<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fiarantsoarnvs%3Figsh%3DZWhvOGcxdGM3d3U2%26fbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExa0VMUjMwN0ZYQkN0WWZWNHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5w3efPGkUlTjDftX7gwZh1spsKpfz8XKN1yFJuy0aqqh0qO9L3MKx6yfAEMA_aem_KoYFIzAc4m8kQZNo7Ws1DQ&h=AT4IOeHcxe7ieRxf2lzGc7N1Xcu3I70grnsKXe87pZPsybtg59gprPv6Lv5XGTlJMgkVsBq06nFbKk8lMJZiVhrOu205NnX9miandU01-Leze6mNWTr0IlmEjfYr_ZLVyWRILw
-					" class="contact-card" target="_blank">
-					<span class="icon">
-						<i class="fa  fa-facebook-official fb" aria-hidden="true"></i>
-					</span>
-					<h3>Facebook</h3>
-					<p>Suivre mon actualité</p>
+					<a href="https://www.facebook.com/iarantsoa.rnvs.3" class="contact-card" target="_blank">
+						<span class="icon">
+							<i class="fa fa-facebook-official fb" aria-hidden="true"></i>
+						</span>
+						<h3>Facebook</h3>
+						<p data-i18n="contact_facebook_p">Suivre mon actualité</p>
 					</a>
 
-					<a href="https://instagram.com/tonprofil" class="contact-card" target="_blank">
-					<span class="icon">
-						<i class="fa  fa-instagram insta" aria-hidden="true"></i>
-					</span>
-					<h3>Instagram</h3>
-					<p>Découvrir mes publications</p>
+					<a href="https://www.instagram.com/iarantsoarnvs" class="contact-card" target="_blank">
+						<span class="icon">
+							<i class="fa fa-instagram insta" aria-hidden="true"></i>
+						</span>
+						<h3>Instagram</h3>
+						<p data-i18n="contact_insta_p">Découvrir mes publications</p>
 					</a>
 
 					<a href="tel:+261377805587" class="contact-card">
-					<span class="icon">
-						<i class="fa  fa-phone phone" aria-hidden="true"></i>
-					</span>
-					<h3>Téléphone</h3>
-					<p>+261 37 78 055 87</p>
+						<span class="icon">
+							<i class="fa fa-phone phone" aria-hidden="true"></i>
+						</span>
+						<h3 data-i18n="contact_phone_title">Téléphone</h3>
+						<p data-i18n="contact_phone_p">+261 37 78 055 87</p>
 					</a>
 
-					<a href="raiarantsoa@gmail.com" class="contact-card">
-					<span class="icon">✉️</span>
-					<h3>Email</h3>
-					<p>raiarantsoa@gmail.com</p>
+					<a href="mailto:raiarantsoa@gmail.com" class="contact-card">
+						<span class="icon">✉️</span>
+						<h3 data-i18n="contact_email_title">Email</h3>
+						<p data-i18n="contact_email_p">raiarantsoa@gmail.com</p>
 					</a>
 
-					<a href="https://wa.me/261384021152" class="contact-card">
-					<span class="icon">
-						<i class="fa  fa-whatsapp tsapp" aria-hidden="true"></i>
-					</span>
-					<h3>Whatsapp</h3>
-					<p>+261 38 40 211 52</p>
+					<a href="https://wa.me/261384021152" class="contact-card" target="_blank">
+						<span class="icon">
+							<i class="fa fa-whatsapp tsapp" aria-hidden="true"></i>
+						</span>
+						<h3>Whatsapp</h3>
+						<p data-i18n="contact_whatsapp_p">+261 38 40 211 52</p>
 					</a>
-					
 				</div>
-
 			</section>
-			
+
 			<!-- Copyright Text -->
 			<div class="copyright">
 				<p>
-					Iarantsoa Nomenjanahary RANAIVOSON
+					&copy; RANAIVOSON Nomenjanahary Iarantsoa - Tous droits réservés.
 				</p>
 			</div>
 		</div>
 	</div>
-	
-	<script>
-		let toggle=document.querySelector('.toggle');
-		let topbar=document.querySelector('.topbar');
-		let navigation=document.querySelector('.navigation');
-		let main=document.querySelector('.main');
-		toggle.onclick=function(){
-			toggle.classList.toggle('active');
-			topbar.classList.toggle('active');
-			navigation.classList.toggle('active');
-			main.classList.toggle('active');
-		}
-		//now , we fix menu active class issue
-		function toogleMenu(){
-		let navigation=document.querySelector('.navigation');
-		let main=document.querySelector('.main');
-		navigation.classList.remove('active');
-		main.classList.remove('active');
-		}
-	</script>
+
+	<!-- Image Lightbox Modal -->
+	<div class="portfolio-modal" id="image-lightbox-modal" role="dialog" aria-hidden="true">
+		<div class="modal-overlay" onclick="closeImageLightbox()"></div>
+		<div class="modal-container image-modal-container">
+			<button class="modal-close-btn" onclick="closeImageLightbox()" aria-label="Fermer">
+				<i class="fa fa-times" aria-hidden="true"></i>
+			</button>
+			<button class="modal-nav-btn prev-btn" onclick="prevLightboxImage()" aria-label="Précédent">
+				<i class="fa fa-chevron-left" aria-hidden="true"></i>
+			</button>
+			<button class="modal-nav-btn next-btn" onclick="nextLightboxImage()" aria-label="Suivant">
+				<i class="fa fa-chevron-right" aria-hidden="true"></i>
+			</button>
+			<div class="modal-body">
+				<div class="modal-media-wrap">
+					<img id="lightbox-img" src="" alt="Aperçu visuel">
+				</div>
+				<div class="modal-details">
+					<span class="modal-brand-badge" id="lightbox-brand"></span>
+					<h4 id="lightbox-title"></h4>
+					<p id="lightbox-desc"></p>
+					<div class="modal-counter" id="lightbox-counter"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Video Player Modal -->
+	<div class="portfolio-modal" id="video-modal" role="dialog" aria-hidden="true">
+		<div class="modal-overlay" onclick="closeVideoModal()"></div>
+		<div class="modal-container video-modal-container">
+			<button class="modal-close-btn" onclick="closeVideoModal()" aria-label="Fermer">
+				<i class="fa fa-times" aria-hidden="true"></i>
+			</button>
+			<div class="modal-body">
+				<div class="modal-media-wrap video-wrap">
+					<video id="modal-video-player" controls preload="metadata">
+						<source src="" type="video/mp4">
+						Votre navigateur ne supporte pas la lecture vidéo.
+					</video>
+				</div>
+				<div class="modal-details">
+					<span class="modal-brand-badge" id="video-modal-brand"></span>
+					<h4 id="video-modal-title"></h4>
+					<p id="video-modal-desc"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Main Script -->
+	<script src="js/main.js"></script>
 </body>
-</html> 
+
+</html>
