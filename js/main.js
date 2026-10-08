@@ -20,7 +20,7 @@ const translations = {
 
     // About
     about_title: "Qui suis-je ?",
-    about_role: "Responsable Médias Sociaux & Assistant de Communication",
+    about_role: "Responsable Médias Sociaux and Assistant de Communication",
     about_p1: "J'évolue aujourd'hui avec une <span class=\"highlight\">double casquette</span> qui fait ma force.",
     about_p2: "D'un côté, je suis <span class=\"highlight\">Responsable Médias Sociaux du Groupe Megaprint</span>, où je pilote la stratégie digitale de 4 marques : <strong>Megaprint, Megapower, Slimmo et La Résidence Fenofitia</strong>. Création de contenu, animation de communautés, campagnes : je gère leur visibilité au quotidien.",
     about_p3: "De l'autre, je suis <span class=\"highlight\">Assistant de Communication à la Concertation des Sociétés Civiles Malagasy</span>, où je mets mes compétences au service de l'engagement citoyen et des initiatives à impact.",
@@ -30,7 +30,7 @@ const translations = {
     // Experiences
     exp_title: "Mes Expériences",
     exp_megaprint_role: "Responsable Médias Sociaux Megaprint",
-    exp_megaprint_1: "Stratégie de contenu pour l'impression & signalétique",
+    exp_megaprint_1: "Stratégie de contenu pour l'impression and signalétique",
     exp_megaprint_2: "Création de visuels produits et réalisations clients",
     exp_megaprint_3: "Animation Facebook / LinkedIn et génération de leads B2B",
 
@@ -90,17 +90,17 @@ const translations = {
     filter_videos: "Vidéos",
 
     // Category Section Headings
-    section_visuals_heading: "📷 Contenus Visuels & Graphiques",
+    section_visuals_heading: "📷 Contenus Visuels and Graphiques",
     section_videos_heading: "🎬 Réalisations Vidéo",
 
     // Folder Sub-Category Titles & Descriptions
-    folder_megaprint_title: "Megaprint - Impression & Signalétique",
+    folder_megaprint_title: "Megaprint - Impression and Signalétique",
     folder_megaprint_desc: "Réalisations graphiques, visuels d'impression grand format et supports de communication d'entreprise.",
 
     folder_megapower_title: "Megapower - Énergie Solaire",
     folder_megapower_desc: "Supports de sensibilisation et visuels pédagogiques sur l'autonomie énergétique solaire.",
 
-    folder_slimmo_title: "SLIMMO - Content & Lifestyle",
+    folder_slimmo_title: "SLIMMO - Content and Lifestyle",
     folder_slimmo_desc: "Visuels créatifs, visuels réseaux sociaux et campagnes d'engagement de marque.",
 
     folder_fenofitia_title: "La Résidence Fenofitia - Immobilier",
@@ -109,16 +109,16 @@ const translations = {
     folder_croixrouge_title: "Croix-Rouge Malagasy - Action Humanitaire",
     folder_croixrouge_desc: "Affiches de sensibilisation, appels d'offres, appels à volontaires et reportages terrain.",
 
-    folder_cscm_title: "CSCM - Plaidoyer & Engagement Citoyen",
+    folder_cscm_title: "CSCM - Plaidoyer and Engagement Citoyen",
     folder_cscm_desc: "Vidéos et contenus institutionnels pour la Concertation des Sociétés Civiles Malagasy.",
 
-    folder_associations_title: "Projets Associatifs & Communautaires",
+    folder_associations_title: "Projets Associatifs and Communautaires",
     folder_associations_desc: "Campagnes de jeunesse, mobilisations citoyennes et événements éducatifs (Alliance Aika, Challenge for Kids, Konecta, ISIC).",
 
-    folder_general_visuals_title: "Affiches & Publications Générales",
+    folder_general_visuals_title: "Affiches and Publications Générales",
     folder_general_visuals_desc: "Conceptions graphiques et créations visuelles multicanales.",
 
-    folder_general_videos_title: "Vidéos Générales & Reportages",
+    folder_general_videos_title: "Vidéos Générales and Reportages",
     folder_general_videos_desc: "Capsules vidéo, portraits et documentaires terrain.",
 
     // UI Buttons & Modals
@@ -155,12 +155,12 @@ const translations = {
     nav_contacts: "Contact",
 
     // Hero / Banner
-    banner_role: "Communication Specialist & Web Manager",
+    banner_role: "Communication Specialist and Web Manager",
     banner_cv: "View Resume",
 
     // About
     about_title: "About Me",
-    about_role: "Social Media Manager & Communication Assistant",
+    about_role: "Social Media Manager and Communication Assistant",
     about_p1: "I evolve today with a <span class=\"highlight\">dual role</span> that is my strength.",
     about_p2: "On one side, I am <span class=\"highlight\">Social Media Manager for Megaprint Group</span>, leading the digital strategy for 4 brands: <strong>Megaprint, Megapower, Slimmo, and La Résidence Fenofitia</strong>. Content creation, community management, campaigns: I manage their visibility daily.",
     about_p3: "On the other side, I am <span class=\"highlight\">Communication Assistant at the Malagasy Civil Society Concertation</span>, using my skills for civic engagement and high-impact initiatives.",
@@ -170,9 +170,9 @@ const translations = {
     // Experiences
     exp_title: "My Experience",
     exp_megaprint_role: "Social Media Manager - Megaprint",
-    exp_megaprint_1: "Content strategy for printing & signage",
+    exp_megaprint_1: "Content strategy for printing and signage",
     exp_megaprint_2: "Creation of product visuals and client showcases",
-    exp_megaprint_3: "Facebook / LinkedIn management & B2B lead generation",
+    exp_megaprint_3: "Facebook / LinkedIn management and B2B lead generation",
 
     exp_megapower_role: "Social Media Manager - Megapower",
     exp_megapower_1: "Promotion of solar energy solutions",
@@ -181,35 +181,35 @@ const translations = {
 
     exp_slimmo_role: "Social Media Manager - SLIMMO",
     exp_slimmo_1: "Development of lifestyle brand identity",
-    exp_slimmo_2: "Creative content, Reels & TikTok/FB trends",
-    exp_slimmo_3: "Youth community engagement & growth",
+    exp_slimmo_2: "Creative content, Reels and TikTok/FB trends",
+    exp_slimmo_3: "Youth community engagement and growth",
 
     exp_fenofitia_role: "Social Media Manager - La Résidence Fenofitia",
-    exp_fenofitia_1: "Real estate valuation & lifestyle showcase",
+    exp_fenofitia_1: "Real estate valuation and lifestyle showcase",
     exp_fenofitia_2: "Premium content: photos, virtual tours, testimonials",
-    exp_fenofitia_3: "E-reputation management & inquiry handling",
+    exp_fenofitia_3: "E-reputation management and inquiry handling",
 
     exp_croixrouge_role: "Awareness content creation on Facebook, volunteer spotlight, humanitarian campaign management.",
     exp_croixrouge_1: "Facebook posts with visual storytelling",
     exp_croixrouge_2: "First aid awareness campaigns",
     exp_croixrouge_3: "Coordination of digital and field operations",
 
-    exp_aika_role: "Community manager & digital project lead.",
+    exp_aika_role: "Community manager and digital project lead.",
     exp_aika_1: "Organization of youth activities",
     exp_aika_2: "Creation of mobilization visuals and videos",
     exp_aika_3: "Community event management",
 
     exp_cscm_role: "Communication Assistant",
-    exp_cscm_1: "Showcasing civic initiatives & advocacy campaigns",
+    exp_cscm_1: "Showcasing civic initiatives and advocacy campaigns",
     exp_cscm_2: "Creation of institutional and digital content",
     exp_cscm_3: "Communication support for civic engagement",
 
-    exp_cfk_role: "Educational activities coordinator & field mobilizer.",
+    exp_cfk_role: "Educational activities coordinator and field mobilizer.",
     exp_cfk_1: "Facebook campaigns for family awareness",
     exp_cfk_2: "Organization of educational events",
     exp_cfk_3: "Communication with partners and parents",
 
-    exp_konecta_role: "Customer engagement manager & multichannel communication.",
+    exp_konecta_role: "Customer engagement manager and multichannel communication.",
     exp_konecta_1: "Social media content creation",
     exp_konecta_2: "Customer feedback analysis",
     exp_konecta_3: "Internal campaign coordination",
@@ -230,17 +230,17 @@ const translations = {
     filter_videos: "Videos",
 
     // Category Section Headings
-    section_visuals_heading: "📷 Visual & Graphic Content",
+    section_visuals_heading: "📷 Visual and Graphic Content",
     section_videos_heading: "🎬 Video Works",
 
     // Folder Sub-Category Titles & Descriptions
-    folder_megaprint_title: "Megaprint Group - Print & Signage",
+    folder_megaprint_title: "Megaprint Group - Print and Signage",
     folder_megaprint_desc: "Graphic creations, large format print visuals, and corporate communication media.",
 
     folder_megapower_title: "Megapower - Solar Energy",
     folder_megapower_desc: "Awareness materials and educational visuals on solar energy independence.",
 
-    folder_slimmo_title: "SLIMMO - Content & Lifestyle",
+    folder_slimmo_title: "SLIMMO - Content and Lifestyle",
     folder_slimmo_desc: "Creative visuals, social media graphics, and brand engagement campaigns.",
 
     folder_fenofitia_title: "La Résidence Fenofitia - Real Estate",
@@ -249,16 +249,16 @@ const translations = {
     folder_croixrouge_title: "Malagasy Red Cross - Humanitarian Action",
     folder_croixrouge_desc: "Awareness posters, tender notices, call for volunteers, and field reports.",
 
-    folder_cscm_title: "CSCM - Advocacy & Civic Engagement",
+    folder_cscm_title: "CSCM - Advocacy and Civic Engagement",
     folder_cscm_desc: "Videos and institutional content for the Malagasy Civil Society Concertation.",
 
-    folder_associations_title: "NGO & Community Projects",
+    folder_associations_title: "NGO and Community Projects",
     folder_associations_desc: "Youth campaigns, civic mobilizations, and educational events (Alliance Aika, Challenge for Kids, Konecta, ISIC).",
 
-    folder_general_visuals_title: "Posters & General Publications",
+    folder_general_visuals_title: "Posters and General Publications",
     folder_general_visuals_desc: "Graphic design creations and multichannel visual assets.",
 
-    folder_general_videos_title: "General Videos & Reports",
+    folder_general_videos_title: "General Videos and Reports",
     folder_general_videos_desc: "Video clips, volunteer portraits, and field documentaries.",
 
     // UI Buttons & Modals
@@ -297,8 +297,8 @@ const visualItems = [
     folderKey: 'folder_megaprint',
     brand: 'Megaprint',
     src: 'img/Megaprint/video & (1).jpg',
-    titleFR: 'Signalétique & Habillage de Véhicules',
-    titleEN: 'Signage & Vehicle Wrapping',
+    titleFR: 'Signalétique and Habillage de Véhicules',
+    titleEN: 'Signage and Vehicle Wrapping',
     descFR: 'Création visuelle pour la communication visuelle grand format et habillage de véhicules d\'entreprise.',
     descEN: 'Visual design for large-format visual communication and corporate vehicle wrapping.'
   },
@@ -307,8 +307,8 @@ const visualItems = [
     folderKey: 'folder_megaprint',
     brand: 'Megaprint',
     src: 'img/Megaprint/video & (3).jpg',
-    titleFR: 'Impression Grand Format & Signalétique',
-    titleEN: 'Large Format Printing & Signage',
+    titleFR: 'Impression Grand Format and Signalétique',
+    titleEN: 'Large Format Printing and Signage',
     descFR: 'Visuel promotionnel mettant en valeur les solutions d\'impression numérique et offset.',
     descEN: 'Promotional visual showcasing digital and offset printing solutions.'
   },
@@ -339,8 +339,8 @@ const visualItems = [
     folderKey: 'folder_megapower',
     brand: 'Megapower',
     src: 'img/megapower/video & (6).jpg',
-    titleFR: 'Équipements Solaires & Vulgarisation',
-    titleEN: 'Solar Equipment & Outreach',
+    titleFR: 'Équipements Solaires and Vulgarisation',
+    titleEN: 'Solar Equipment and Outreach',
     descFR: 'Contenu de vulgarisation technique sur les installations de panneaux solaires.',
     descEN: 'Technical outreach content regarding solar panel installations.'
   },
@@ -405,8 +405,8 @@ const visualItems = [
     folderKey: 'folder_associations',
     brand: 'Challenge for Kids',
     src: 'img/cfk1.jpg',
-    titleFR: 'Campagne Éducative & Événements',
-    titleEN: 'Educational Campaign & Events',
+    titleFR: 'Campagne Éducative and Événements',
+    titleEN: 'Educational Campaign and Events',
     descFR: 'Visuel promotionnel pour des activités éducatives et événements destinés aux familles.',
     descEN: 'Promotional visual for educational activities and family events.'
   },
@@ -425,8 +425,8 @@ const visualItems = [
     folderKey: 'folder_associations',
     brand: 'ISIC',
     src: 'img/cfk.jpg',
-    titleFR: 'Événement Académique & Cinéma',
-    titleEN: 'Academic & Cinema Event',
+    titleFR: 'Événement Académique and Cinéma',
+    titleEN: 'Academic and Cinema Event',
     descFR: 'Conception d\'affiche promotionnelle pour les événements et la coordination logistique.',
     descEN: 'Promotional poster design for academic events and logistics coordination.'
   },
@@ -447,8 +447,8 @@ const visualItems = [
     folderKey: 'folder_general_visuals',
     brand: 'Croix-Rouge Malagasy',
     src: 'img/3.jpg',
-    titleFR: 'Affiche de Recrutement & Secourisme',
-    titleEN: 'Recruitment & First Aid Poster',
+    titleFR: 'Affiche de Recrutement and Secourisme',
+    titleEN: 'Recruitment and First Aid Poster',
     descFR: 'Création graphique pour la promotion de l\'engagement bénévole.',
     descEN: 'Graphic design promoting volunteer engagement.'
   },
@@ -467,8 +467,8 @@ const visualItems = [
     folderKey: 'folder_general_visuals',
     brand: 'Croix-Rouge Malagasy',
     src: 'img/5.jpg',
-    titleFR: 'Affiche de Prévention & Sensibilisation',
-    titleEN: 'Prevention & Awareness Poster',
+    titleFR: 'Affiche de Prévention and Sensibilisation',
+    titleEN: 'Prevention and Awareness Poster',
     descFR: 'Affiche communautaire diffusée dans le cadre de campagnes sociales.',
     descEN: 'Community poster distributed as part of social campaigns.'
   },
@@ -487,8 +487,8 @@ const visualItems = [
     folderKey: 'folder_general_visuals',
     brand: 'Communication Visuelle',
     src: 'img/video & (4).jpg',
-    titleFR: 'Infographie & Supports Pédagogiques',
-    titleEN: 'Infographic & Educational Media',
+    titleFR: 'Infographie and Supports Pédagogiques',
+    titleEN: 'Infographic and Educational Media',
     descFR: 'Mise en page d\'informations clés pour une meilleure compréhension du public.',
     descEN: 'Key information layout for enhanced public understanding.'
   },
@@ -501,6 +501,327 @@ const visualItems = [
     titleEN: 'Promotional Graphic Creation',
     descFR: 'Support de promotion digitale décliné pour le web et les médias sociaux.',
     descEN: 'Digital promotional support tailored for web and social media.'
+  },
+
+  // --- MISSING IMAGES ADDED ---
+  // Folder: img/fenofitia/
+  {
+    id: 'vis_fen_logo',
+    folderKey: 'folder_fenofitia',
+    brand: 'La Résidence Fenofitia',
+    src: 'img/fenofitia/ffb20f (1).png',
+    titleFR: 'Logo and Identité Visuelle Fenofitia',
+    titleEN: 'Fenofitia Logo and Visual Identity',
+    descFR: 'Branding et identité visuelle officielle de La Résidence Fenofitia.',
+    descEN: 'Official branding and visual identity of La Résidence Fenofitia.'
+  },
+  {
+    id: 'vis_fen_c1',
+    folderKey: 'folder_fenofitia',
+    brand: 'La Résidence Fenofitia',
+    src: 'img/fenofitia/Copie de ffb20f (1).jpg',
+    titleFR: 'Cadre de Vie and Résidence Fenofitia',
+    titleEN: 'Fenofitia Living Environment and Residence',
+    descFR: 'Visuel promotionnel valorisant les appartements meublés et le cadre de vie.',
+    descEN: 'Promotional visual highlighting furnished apartments and living environment.'
+  },
+  {
+    id: 'vis_fen_c2',
+    folderKey: 'folder_fenofitia',
+    brand: 'La Résidence Fenofitia',
+    src: 'img/fenofitia/Copie de ffb20f (2).jpg',
+    titleFR: 'Espaces et Confort Fenofitia',
+    titleEN: 'Fenofitia Spaces and Comfort',
+    descFR: 'Présentation des aménagements et du standing des logements meublés.',
+    descEN: 'Showcase of amenities and premium living spaces.'
+  },
+  {
+    id: 'vis_fen_c3',
+    folderKey: 'folder_fenofitia',
+    brand: 'La Résidence Fenofitia',
+    src: 'img/fenofitia/Copie de ffb20f (3).jpg',
+    titleFR: 'Séjour and Hébergement Fenofitia',
+    titleEN: 'Fenofitia Accommodations and Stay',
+    descFR: 'Visuel de communication immobilière et réservation de séjours.',
+    descEN: 'Real estate communication visual for stay reservations.'
+  },
+  {
+    id: 'vis_fen_c4',
+    folderKey: 'folder_fenofitia',
+    brand: 'La Résidence Fenofitia',
+    src: 'img/fenofitia/Copie de ffb20f (4).jpg',
+    titleFR: 'Vue and Architecture Résidence Fenofitia',
+    titleEN: 'Fenofitia Architecture and View',
+    descFR: 'Valorisation architecturale et environnementale de la résidence.',
+    descEN: 'Architectural and environmental highlight of the residence.'
+  },
+  {
+    id: 'vis_fen_mavam',
+    folderKey: 'folder_fenofitia',
+    brand: 'La Résidence Fenofitia',
+    src: 'img/SLIMMO/Copie de LE MAVAM MAHANORO APPARTEMENTS MEUBLES TAMATAVE (4).jpg',
+    titleFR: 'Appartements Meublés Le Mavam',
+    titleEN: 'Le Mavam Furnished Apartments',
+    descFR: 'Support visuel promotionnel pour les offres d\'hébergement et appartements meublés.',
+    descEN: 'Promotional visual support for accommodation offers and furnished apartments.'
+  },
+
+  // Folder: img/megapower/ (Additional)
+  {
+    id: 'vis_mpw_aio1',
+    folderKey: 'folder_megapower',
+    brand: 'Megapower',
+    src: 'img/megapower/AllInOne1.jpg',
+    titleFR: 'Solution Solaire All-In-One 1',
+    titleEN: 'All-In-One Solar Solution 1',
+    descFR: 'Visuel produit pour kit solaire autonome tout-en-un.',
+    descEN: 'Product visual for all-in-one standalone solar kit.'
+  },
+  {
+    id: 'vis_mpw_aio2',
+    folderKey: 'folder_megapower',
+    brand: 'Megapower',
+    src: 'img/megapower/AllInOne2.jpg',
+    titleFR: 'Solution Solaire All-In-One 2',
+    titleEN: 'All-In-One Solar Solution 2',
+    descFR: 'Présentation technique des fonctionnalités du système solaire All-In-One.',
+    descEN: 'Technical presentation of All-In-One solar system features.'
+  },
+  {
+    id: 'vis_mpw_aio3',
+    folderKey: 'folder_megapower',
+    brand: 'Megapower',
+    src: 'img/megapower/AllInOne3.jpg',
+    titleFR: 'Solution Solaire All-In-One 3',
+    titleEN: 'All-In-One Solar Solution 3',
+    descFR: 'Support de communication sur les performances énergétiques des équipements.',
+    descEN: 'Communication support on energy equipment performance.'
+  },
+  {
+    id: 'vis_mpw_roadshow',
+    folderKey: 'folder_megapower',
+    brand: 'Megapower',
+    src: 'img/megapower/Copie de ROADSHOW MEGAPOWER.jpg',
+    titleFR: 'Roadshow Megapower',
+    titleEN: 'Megapower Roadshow',
+    descFR: 'Visuel de la campagne événementielle et démonstrations terrain Megapower.',
+    descEN: 'Visual for event campaign and Megapower field demonstrations.'
+  },
+  {
+    id: 'vis_mpw_deye',
+    folderKey: 'folder_megapower',
+    brand: 'Megapower',
+    src: 'img/megapower/Onduleur Deye + Batterie Deye  L\'alliance parfaite pour zéro panne et zéro prise de tête. (11).jpg',
+    titleFR: 'Onduleur and Batterie Deye',
+    titleEN: 'Deye Inverter and Battery',
+    descFR: 'Visuel de promotion pour l\'association onduleur et batterie solaire Deye.',
+    descEN: 'Promotional visual for Deye solar inverter and battery system.'
+  },
+  {
+    id: 'vis_mpw_panel',
+    folderKey: 'folder_megapower',
+    brand: 'Megapower',
+    src: 'img/megapower/PanneauSolaire.png',
+    titleFR: 'Panneaux Solaires Haute Performance',
+    titleEN: 'High-Performance Solar Panels',
+    descFR: 'Support visuel mettant en avant la technologie des panneaux solaires Megapower.',
+    descEN: 'Visual support highlighting Megapower solar panel technology.'
+  },
+  {
+    id: 'vis_mpw_mada9',
+    folderKey: 'folder_megapower',
+    brand: 'Megapower',
+    src: 'img/Megaprint/MEGAPOWER MADA (9).jpg',
+    titleFR: 'Offre Megapower Mada',
+    titleEN: 'Megapower Mada Offer',
+    descFR: 'Visuel publicitaire pour les offres de solutions solaires Megapower.',
+    descEN: 'Advertising visual for Megapower solar solution offers.'
+  },
+
+  // Folder: img/Megaprint/ (Additional)
+  {
+    id: 'vis_mp_eq1',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'img/Megaprint/Copie de éTIQUETTEs (1).jpg',
+    titleFR: 'Conception d\'Étiquettes and Packaging 1',
+    titleEN: 'Label and Packaging Design 1',
+    descFR: 'Création graphique d\'étiquettes personnalisées pour emballages et bouteilles.',
+    descEN: 'Graphic creation of custom labels for packaging and bottles.'
+  },
+  {
+    id: 'vis_mp_eq5',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'img/Megaprint/éTIQUETTEs (5).jpg',
+    titleFR: 'Design Étiquettes Produits 5',
+    titleEN: 'Product Label Design 5',
+    descFR: 'Visuel d\'impression d\'étiquettes adhésives sur mesure pour marques locales.',
+    descEN: 'Custom adhesive label printing visual for local brands.'
+  },
+  {
+    id: 'vis_mp_eq5c',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'img/Megaprint/Copie de éTIQUETTEs (5).jpg',
+    titleFR: 'Design Étiquettes Produits 5 (Variante)',
+    titleEN: 'Product Label Design 5 (Variant)',
+    descFR: 'Déclinaison visuelle pour la gamme d\'étiquettes personnalisées Megaprint.',
+    descEN: 'Visual variant for Megaprint custom label range.'
+  },
+  {
+    id: 'vis_mp_eq6',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'img/Megaprint/éTIQUETTEs (6).jpg',
+    titleFR: 'Design Étiquettes Produits 6',
+    titleEN: 'Product Label Design 6',
+    descFR: 'Modèle d\'étiquettes adhésives et packaging de produit.',
+    descEN: 'Adhesive label and product packaging model.'
+  },
+  {
+    id: 'vis_mp_eq6c',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'img/Megaprint/Copie de éTIQUETTEs (6).jpg',
+    titleFR: 'Design Étiquettes Produits 6 (Dark)',
+    titleEN: 'Product Label Design 6 (Dark)',
+    descFR: 'Création visuelle packaging haut de gamme fond sombre.',
+    descEN: 'Premium dark background packaging visual design.'
+  },
+  {
+    id: 'vis_mp_eq7',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'img/Megaprint/éTIQUETTEs (7).jpg',
+    titleFR: 'Design Étiquettes Produits 7',
+    titleEN: 'Product Label Design 7',
+    descFR: 'Impression d\'étiquettes de marque et packaging personnalisé.',
+    descEN: 'Brand label printing and custom packaging.'
+  },
+  {
+    id: 'vis_mp_eq7c',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'img/Megaprint/Copie de éTIQUETTEs (7).jpg',
+    titleFR: 'Design Étiquettes Produits 7 (Variante)',
+    titleEN: 'Product Label Design 7 (Variant)',
+    descFR: 'Déclinaison graphique pour packaging et étiquettes adhésives.',
+    descEN: 'Graphic variant for packaging and adhesive labels.'
+  },
+  {
+    id: 'vis_mp_eq8c',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'img/Megaprint/Copie de éTIQUETTEs (8).jpg',
+    titleFR: 'Design Étiquettes Produits 8',
+    titleEN: 'Product Label Design 8',
+    descFR: 'Conception d\'étiquettes pour emballages commerciaux.',
+    descEN: 'Label design for commercial packaging.'
+  },
+  {
+    id: 'vis_mp_eq9c',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'img/Megaprint/Copie de éTIQUETTEs (9).jpg',
+    titleFR: 'Design Étiquettes Produits 9',
+    titleEN: 'Product Label Design 9',
+    descFR: 'Création visuelle pour étiquettes adhésives imprimées.',
+    descEN: 'Visual creation for printed adhesive labels.'
+  },
+  {
+    id: 'vis_mp_fin',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'img/Megaprint/Finition.jpg',
+    titleFR: 'Finition and Découpe d\'Impression',
+    titleEN: 'Printing Finishing and Cutting',
+    descFR: 'Visuel mettant en avant les travaux de finition et découpe de précision Megaprint.',
+    descEN: 'Visual highlighting precision finishing and cutting at Megaprint.'
+  },
+  {
+    id: 'vis_mp_off7',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'img/Megaprint/off7.jpg',
+    titleFR: 'Impression Offset and Qualité',
+    titleEN: 'Offset Printing and Quality',
+    descFR: 'Présentation des solutions d\'impression offset pour grands tirages.',
+    descEN: 'Presentation of offset printing solutions for large runs.'
+  },
+  {
+    id: 'vis_mp_pao',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'img/Megaprint/PAO.jpg',
+    titleFR: 'Studio PAO and Design Graphique',
+    titleEN: 'DTP Studio and Graphic Design',
+    descFR: 'Mise en page et préparation des fichiers d\'impression au studio PAO.',
+    descEN: 'Layout and file preparation for printing at DTP studio.'
+  },
+
+  // Folder: img/SLIMMO/ (Additional)
+  {
+    id: 'vis_sl_b1',
+    folderKey: 'folder_slimmo',
+    brand: 'SLIMMO',
+    src: 'img/SLIMMO/B1.jpg',
+    titleFR: 'Visuel SLIMMO Brand 1',
+    titleEN: 'SLIMMO Brand Visual 1',
+    descFR: 'Création graphique pour la communication digitale et réseaux sociaux SLIMMO.',
+    descEN: 'Graphic creation for SLIMMO digital and social media communication.'
+  },
+  {
+    id: 'vis_sl_b2',
+    folderKey: 'folder_slimmo',
+    brand: 'SLIMMO',
+    src: 'img/SLIMMO/B2.jpg',
+    titleFR: 'Visuel SLIMMO Brand 2',
+    titleEN: 'SLIMMO Brand Visual 2',
+    descFR: 'Visuel lifestyle et tendances d\'engagement pour la marque SLIMMO.',
+    descEN: 'Lifestyle visual and engagement trends for SLIMMO brand.'
+  },
+  {
+    id: 'vis_sl_b3',
+    folderKey: 'folder_slimmo',
+    brand: 'SLIMMO',
+    src: 'img/SLIMMO/B3.jpg',
+    titleFR: 'Visuel SLIMMO Brand 3',
+    titleEN: 'SLIMMO Brand Visual 3',
+    descFR: 'Contenu de communication visuelle décliné pour les médias sociaux.',
+    descEN: 'Visual communication content tailored for social media.'
+  },
+  {
+    id: 'vis_sl_b4',
+    folderKey: 'folder_slimmo',
+    brand: 'SLIMMO',
+    src: 'img/SLIMMO/B4.jpg',
+    titleFR: 'Visuel SLIMMO Brand 4',
+    titleEN: 'SLIMMO Brand Visual 4',
+    descFR: 'Support visuel promotionnel pour la communauté SLIMMO.',
+    descEN: 'Promotional visual support for SLIMMO community.'
+  },
+  {
+    id: 'vis_sl_b5',
+    folderKey: 'folder_slimmo',
+    brand: 'SLIMMO',
+    src: 'img/SLIMMO/B5.jpg',
+    titleFR: 'Visuel SLIMMO Brand 5',
+    titleEN: 'SLIMMO Brand Visual 5',
+    descFR: 'Visuel créatif de campagne sociale et engagement web.',
+    descEN: 'Creative visual for social campaign and web engagement.'
+  },
+
+  // Folder: img/ (Additional General Visual)
+  {
+    id: 'vis_gen_shoot',
+    folderKey: 'folder_general_visuals',
+    brand: 'Communication Visuelle',
+    src: 'img/20261002_134033.jpg',
+    titleFR: 'Shooting Photo and Production Terrain',
+    titleEN: 'Photo Shoot and Field Production',
+    descFR: 'Prise de vue terrain et documentation visuelle pour projet de communication.',
+    descEN: 'Field photo shoot and visual documentation for communication project.'
   }
 ];
 
@@ -576,8 +897,8 @@ const videoItems = [
     brand: 'Croix-Rouge Malagasy',
     src: 'videos/croix rouge/2.mp4',
     poster: 'img/croixrouge/3.jpg',
-    titleFR: 'Portrait & Storytelling Volontaire',
-    titleEN: 'Volunteer Portrait & Storytelling',
+    titleFR: 'Portrait and Storytelling Volontaire',
+    titleEN: 'Volunteer Portrait and Storytelling',
     descFR: 'Reportage vidéo mettant à l\'honneur l\'engagement des volontaires sur le terrain.',
     descEN: 'Video report honoring the dedication of volunteers on the ground.'
   },
@@ -589,8 +910,8 @@ const videoItems = [
     brand: 'CSCM',
     src: 'videos/concertation/concertation.mp4',
     poster: 'img/1.jpg',
-    titleFR: 'Plaidoyer & Engagement Citoyen',
-    titleEN: 'Advocacy & Civic Engagement',
+    titleFR: 'Plaidoyer and Engagement Citoyen',
+    titleEN: 'Advocacy and Civic Engagement',
     descFR: 'Vidéo institutionnelle pour la Concertation des Sociétés Civiles Malagasy.',
     descEN: 'Institutional video for the Malagasy Civil Society Concertation.'
   },
@@ -613,8 +934,8 @@ const videoItems = [
     brand: 'Croix-Rouge Malagasy',
     src: 'videos/2.mp4',
     poster: 'img/croixrouge/3.jpg',
-    titleFR: 'Actions Bénévoles & Témoignages',
-    titleEN: 'Volunteer Actions & Testimonials',
+    titleFR: 'Actions Bénévoles and Témoignages',
+    titleEN: 'Volunteer Actions and Testimonials',
     descFR: 'Capsule vidéo capturant l\'impact des bénévoles auprès des communautés.',
     descEN: 'Video clip capturing volunteer impact within communities.'
   },
@@ -635,10 +956,59 @@ const videoItems = [
     brand: 'La Résidence Fenofitia',
     src: 'videos/5.mp4',
     poster: 'img/photopdp.jpg',
-    titleFR: 'Visite Immersive & Cadre de Vie',
-    titleEN: 'Immersive Tour & Living Space',
+    titleFR: 'Visite Immersive and Cadre de Vie',
+    titleEN: 'Immersive Tour and Living Space',
     descFR: 'Aperçu des espaces de vie et commodités de la Résidence Fenofitia.',
     descEN: 'Overview of living spaces and amenities at Residence Fenofitia.'
+  },
+
+  // --- MISSING VIDEOS ADDED ---
+  // Folder: videos/megaprint/ (Additional)
+  {
+    id: 'vid_mp_anniv',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'videos/megaprint/anniversaireMegaprint.mp4',
+    poster: 'img/Megaprint/video & (1).jpg',
+    titleFR: 'Vidéo Anniversaire Groupe Megaprint',
+    titleEN: 'Megaprint Group Anniversary Video',
+    descFR: 'Rétrospective vidéo et célébration des réalisations du Groupe Megaprint.',
+    descEN: 'Video retrospective and celebration of Megaprint Group achievements.'
+  },
+  {
+    id: 'vid_mp_fb',
+    folderKey: 'folder_megaprint',
+    brand: 'Megaprint',
+    src: 'videos/megaprint/facebook-20261002-3_YCYPuWQX.mp4',
+    poster: 'img/Megaprint/video & (3).jpg',
+    titleFR: 'Capsule Vidéo Facebook Megaprint',
+    titleEN: 'Megaprint Facebook Video Clip',
+    descFR: 'Contenu vidéo promotionnel court diffusé sur les réseaux sociaux.',
+    descEN: 'Short promotional video content broadcast on social media.'
+  },
+
+  // Folder: videos/SLIMMO/ (Additional)
+  {
+    id: 'vid_sl_alizes',
+    folderKey: 'folder_slimmo',
+    brand: 'SLIMMO',
+    src: 'videos/SLIMMO/Les Alizés.mp4',
+    poster: 'img/SLIMMO/video & (2).jpg',
+    titleFR: 'Spot Vidéo Les Alizés - SLIMMO',
+    titleEN: 'Les Alizés Video Spot - SLIMMO',
+    descFR: 'Capsule vidéo promotionnelle pour le projet Les Alizés et la marque SLIMMO.',
+    descEN: 'Promotional video clip for Les Alizés project and SLIMMO brand.'
+  },
+  {
+    id: 'vid_sl_2026',
+    folderKey: 'folder_slimmo',
+    brand: 'SLIMMO',
+    src: 'videos/SLIMMO/SLIMMO 2026.mp4',
+    poster: 'img/SLIMMO/video & (2).jpg',
+    titleFR: 'Campagne Vidéo SLIMMO 2026',
+    titleEN: 'SLIMMO 2026 Video Campaign',
+    descFR: 'Production vidéo institutionnelle et créative pour la campagne SLIMMO 2026.',
+    descEN: 'Institutional and creative video production for SLIMMO 2026 campaign.'
   }
 ];
 
