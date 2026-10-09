@@ -611,7 +611,7 @@ const visualItems = [
     id: 'vis_mpw_deye',
     folderKey: 'folder_megapower',
     brand: 'Megapower',
-    src: 'img/megapower/Onduleur Deye + Batterie Deye  L\'alliance parfaite pour zéro panne et zéro prise de tête. (11).jpg',
+    src: 'img/megapower/megapower-deye.jpg',
     titleFR: 'Onduleur and Batterie Deye',
     titleEN: 'Deye Inverter and Battery',
     descFR: 'Visuel de promotion pour l\'association onduleur et batterie solaire Deye.',
@@ -1047,7 +1047,7 @@ function toggleTheme() {
 function updateThemeButtonUI() {
   const btnText = document.querySelector('#theme-toggle-btn .theme-label');
   const btnIcon = document.querySelector('#theme-toggle-btn i');
-  
+
   const isDark = currentTheme === 'dark';
   if (btnText) {
     btnText.textContent = isDark ? translations[currentLang].theme_light_btn : translations[currentLang].theme_dark_btn;
@@ -1134,7 +1134,7 @@ function renderPortfolio() {
 
 function renderFolderGroupedItems(items, type) {
   const lang = currentLang;
-  
+
   // Group items by folderKey
   const grouped = {};
   items.forEach(item => {
@@ -1152,8 +1152,8 @@ function renderFolderGroupedItems(items, type) {
     const title = translations[lang][titleKey] || folderKey;
     const desc = translations[lang][descKey] || '';
 
-    const cardsHtml = type === 'visual' 
-      ? renderVisualCards(itemList) 
+    const cardsHtml = type === 'visual'
+      ? renderVisualCards(itemList)
       : renderVideoCards(itemList);
 
     groupHtml += `
@@ -1356,7 +1356,7 @@ function openVideoModal(id) {
   if (videoEl) {
     videoEl.src = item.src;
     videoEl.load();
-    videoEl.play().catch(() => {});
+    videoEl.play().catch(() => { });
   }
 
   if (titleEl) titleEl.textContent = title;
